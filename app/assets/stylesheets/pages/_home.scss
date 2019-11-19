@@ -1,1 +1,85 @@
 // Specific CSS for your home-page
+.main-subtitle {
+  font-size: 32px;
+  color: $red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-text {
+  color: $dark-gray;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.index-intro {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.company-statement {
+  margin-top: 57px;
+  min-height: 300px;
+}
+
+.about {
+  // height: 50vh;
+  // display: flex;
+  // justify-content: space-between;
+  // align-tems: center;
+  margin: 7vh 5vw;
+}
+
+
+.about p {
+  width: 100%;
+  text-align: left;
+}
+
+
+#questions {
+  list-style-type: square;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6em;
+
+}
+
+#questions > li{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+
+.services {
+  margin-top: 57px;
+  min-height: 200px;
+}
+
+
+.contact {
+  margin-top: 5vh;
+  text-align: center;
+  min-height: 200px;
+}
+
+.button-contact {
+  width: 20vw;
+  margin-bottom: 5vh;
+}
+
+#button-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.button-contact a :hover :active{
+  background-color: $red;
+  color: $white;
+}
+
+.main-container {
+  margin: 5vw 7vh;
+}

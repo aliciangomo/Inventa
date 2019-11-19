@@ -1,0 +1,13 @@
+.band {
+  width: 100%;
+  display: block;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.band-container {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}

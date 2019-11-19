@@ -1,0 +1,35 @@
+.dashboardbanner {
+  background-size: 100%;
+  background-image: url("banner2.png");
+  // background-position: 0% 60%;
+  padding-top: 0;
+  padding-bottom: 1em;
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.container-text {
+  padding: 1vh 1vw 1vh 3vw;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+// .container-text h2 {
+//   margin: 0;
+//   color: white;
+//   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+//   font-size: 40px;
+//   font-weight: bold;
+// }
+
+.container-text h1 {
+  font-size: 24px;
+  color: $red;
+  font-size: bolder;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  padding: 0;
+}
+
