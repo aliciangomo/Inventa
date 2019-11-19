@@ -1,6 +1,7 @@
+
 <div class="dashboardbanner">
   <div class="container-text">
-      <h1 class="main-subtitle">Affordable design, data and technology advisory for start-ups and SMEs</h1>
+      <h1 class="">Affordable design, data and technology advisory for start-ups and SMEs</h1>
   </div>
 </div>
 
@@ -27,32 +28,98 @@
     </ul>
   </div>
 
-  <div class="about">
-      <br>
-  <h2 class="main-subtitle"> Our services</h2>
-      <br>
-      <p class="main-text"> <span id="love">LOVE</span> ♥️... Emotions are the start of each of my paintings. Love in particular, which I believe is the most powerful feeling. Or the pain of its loss, which is equally powerful. My creative process always starts with a strong feeling. Sometimes my own, other times an emotion conveyed by what I see and hear. Stories from other people, photos or dreams are sources of inspiration. I have awaken in the middle of the might to sketch a painting I dreamed about, or been inspired by the expression of somebody sitting in front of me in the tube.</p>
-      <br>
-
-      <p class="main-text"> <span id="music">MUSIC</span> 🎶.... Each of my paintings is linked to a song. Music is as much a part of me as each of my feelings. It is how I remember things, my "chest of memories", a soundtrack of souvenirs. Every time I work on a particular piece I use the same song to reproduce the emotional state that inspired it initially. Music creates a space where there is only the painting, the feeling and me.</p>
-      <br>
-
-      <p class="main-text"><span id="music">TRAVEL</span> 🌎...Traveling is my other passion and from my travels around the 🌎 I gather inspiration for my paintings too. Some of my paintings are inspired by something I have seen, a sunset in some distant beach or people I met during my travels.</p>
-  </div>
-
-</div>
-
-<div class="contact about">
-  <h2 class="main-subtitle"> Contact me </h2>
+  <div class="contact about">
+  <h2 class="main-subtitle"> Contact us </h2>
   <br>
-  <p class="main-text">Thanks for stopping by and I sincerely hope you enjoy my work :) </p>
+  <p class="main-text">If you identify with any of the questions above feel free to contact us for a non-committal conversation. </p>
   <p class="main-text">
-    Please send me a message if interested in a commission or if you have any questions about my art!
+    We will be happy to explore options to help your business!
   </p>
+  <br>
   <br>
   <div id="button-contact">
   <%= link_to 'Get in touch!', new_contact_path, { :class => "button-primary button-contact nav-link", 'data-toggle' => 'modal', 'data-target' => '#contact-modal'} %>
   </div>
 </div>
 
+  <div class="about">
+    <br>
+    <h2 class="main-subtitle"> Our services</h2>
+    <p clas="secondary-text">(Click on each service for a description)</p>
+
+    <hr class="divider">
+      <div class="band-container">
+        <%= image_tag("idea.png")%>
+        <%= image_tag("business_plan.png") %>
+        <%= image_tag("product_design.png") %>
+        <%= image_tag("prototype.png") %>
+        <%= image_tag("growth.png") %>
+        </div>
+    <hr class="divider">
+    <br>
+
+    <div class="content">
+      <div class="idea-content">
+        <h1 class="second-subtitle"> Shapping my idea</h1>
+        <div class="service-container">
+        <%= image_tag("idea.png") %>
+        <%= image_tag("business_plan.png") %>
+        <%= image_tag("product_design.png") %>
+        </div>
+        <p class="main-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
+        <br>
+      </div>
+
+      <div class="busplan-content">
+        <h1 class="second-subtitle"> Shapping my idea</h1>
+        <div class="service-container">
+        <%= image_tag("idea.png") %>
+        <%= image_tag("business_plan.png") %>
+        <%= image_tag("product_design.png") %>
+        </div>
+        <p class="main-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
+        <br>
+      </div>
+
+      <div class="proddesign-content">
+        <h1 class="second-subtitle"> Shapping my idea</h1>
+        <div class="service-container">
+        <%= image_tag("idea.png") %>
+        <%= image_tag("business_plan.png") %>
+        <%= image_tag("product_design.png") %>
+        </div>
+        <p class="main-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
+        <br>
+      </div>
+
+      <div class="prototype-content">
+        <h1 class="second-subtitle"> Shapping my idea</h1>
+        <div class="service-container">
+        <%= image_tag("idea.png") %>
+        <%= image_tag("business_plan.png") %>
+        <%= image_tag("product_design.png") %>
+        </div>
+        <p class="main-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
+        <br>
+      </div>
+
+      <div class="growth-content">
+        <h1 class="second-subtitle"> Shapping my idea</h1>
+        <div class="service-container">
+        <%= image_tag("idea.png") %>
+        <%= image_tag("business_plan.png") %>
+        <%= image_tag("product_design.png") %>
+        </div>
+        <p class="main-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
+        <br>
+      </div>
+
+
+  </div>
+
+</div>
+
 <%= render "contacts/new" %>
+
+
+

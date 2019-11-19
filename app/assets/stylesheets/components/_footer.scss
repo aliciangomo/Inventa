@@ -5,7 +5,7 @@
   justify-content: space-between;
   padding: 1.5em 2em;
   margin-top: 0px;
-  color: rgba(0,0,0,0.3);
+  color: $dark-gray;
   // position-bottom: 100vh;
   @include media-breakpoint-up(md) {
     padding: 1.5em 2em;
@@ -15,14 +15,14 @@
   }
 }
 .footer-links {
-  width: 50%;
+  width: 5vw;
   display: flex;
   justify-content: space-between;
 }
 
 .footer a {
-  color: black;
-  opacity: 0.6;
+  color: $dark-gray;
+  // opacity: 0.6;
   text-decoration: none;
   font-size: 16px;
   padding: 0px;
@@ -31,8 +31,12 @@
   opacity: 1;
 }
 
-.fa-github {
-  color: $black;
+.fa-linkedin {
+  color: $dark-gray;
+}
+
+.fa-twitter {
+  color: $dark-gray;
 }
 
 .fa-heart {

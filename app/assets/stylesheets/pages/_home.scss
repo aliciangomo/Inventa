@@ -6,10 +6,23 @@
   text-align: center;
 }
 
+.second-subtitle {
+  font-size: 28px;
+  color: $light-red;
+  font-weight: bold;
+  text-align: center;
+}
+
 .main-text {
   color: $dark-gray;
   font-size: 1.2em;
   text-align: left;
+}
+
+.secondary-text {
+  color: $gray;
+  font-size: 0.8em;
+  text-align: center;
 }
 
 .index-intro {
@@ -17,9 +30,11 @@
   margin-bottom: 10vh;
 }
 
+
 .company-statement {
   margin-top: 57px;
   min-height: 300px;
+  background-color: $white;
 }
 
 .about {
@@ -30,12 +45,10 @@
   margin: 7vh 5vw;
 }
 
-
 .about p {
   width: 100%;
   text-align: left;
 }
-
 
 #questions {
   list-style-type: square;
@@ -53,11 +66,7 @@
 }
 
 
-.services {
-  margin-top: 57px;
-  min-height: 200px;
-}
-
+// CONTACT
 
 .contact {
   margin-top: 5vh;
@@ -66,8 +75,10 @@
 }
 
 .button-contact {
-  width: 20vw;
+  width: 40vw;
   margin-bottom: 5vh;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 #button-contact {
@@ -78,8 +89,22 @@
 .button-contact a :hover :active{
   background-color: $red;
   color: $white;
+
 }
 
 .main-container {
   margin: 5vw 7vh;
+}
+
+
+//SERVICES
+
+.services {
+  margin-top: 57px;
+  min-height: 200px;
+}
+
+.divider {
+  border: $gray 4px solid;
+  width: 100%;
 }

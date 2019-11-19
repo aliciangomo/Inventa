@@ -1,10 +1,14 @@
 .dashboardbanner {
-  background-size: 100%;
+  background-size: 85% 65%;
   background-image: url("banner2.png");
-  // background-position: 0% 60%;
+  background-repeat: no-repeat;
+  background-color: $white;
+  // background-attachment: fixed;
+  // background-position: center;
+  background-position: 50% 30%;
   padding-top: 0;
   padding-bottom: 1em;
-  height: 50vh;
+  height: 60vh;
   overflow: hidden;
   position: relative;
 }
@@ -12,8 +16,9 @@
 .container-text {
   padding: 1vh 1vw 1vh 3vw;
   position: absolute;
-  top: 0;
+  bottom: 0;
   width: 100%;
+  background-color: $light-red
 }
 
 // .container-text h2 {
@@ -25,11 +30,11 @@
 // }
 
 .container-text h1 {
-  font-size: 24px;
-  color: $red;
-  font-size: bolder;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  color: $white;
+  font-weight: bold;
+  font-style: italic;
   padding: 0;
+  font-size: 32px;
+  text-align: center;
 }
 
